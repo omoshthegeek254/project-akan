@@ -24,38 +24,32 @@
                 <div class="app"> 
                     <h3>Curious to Find out your Akan Name ?</h3>
                     <p>Fill in your details below...</p>
-                    <div id="myForm">
-                        
-                        <label for="date">Date Of Birth</label>
+                    <div>
+                            <form id="myForm"  onsubmit="return false" >
+                                    <label for="dob">Date of Birth</label> <br>
+                                    <input type="text" name="dob" placeholder="Date of Birth i.e 09" required><br>
+                                    
+                                    <label for="mob">Month of Birth</label> <br>
+                                    <input type="text" name="mob" placeholder="Month of Birth i.e 11" required> <br>
+                                  
+                                    <label for="yob">Year of Birth</label> <br>
+                                    <input type="text" name="yob" placeholder="Year of Birth" required> <br>
+                                    <label for="yob">Gender</label> <br>
+                                    Male<input type="radio" name="gender" value="male" checked >
+                                    Female<input type="radio" name="gender" value="female" > <br>
+                                    <button  onclick="set()"> Submit</button>
+                                  </form> 
 
-                        <input type="text" placeholder="DD e.g 09" name="date" class="form-control" required>
-
-                        <label for="month" ></label> Month Of Birth</label>
-
-                        <input type="text" placeholder="MM e.g 12"  name="month"class="form-control" required>
-
-                        <label for="year">Year Of Birth</label>
-
-                        <input type="text" placeholder="YYYY e.g 2000" name="year" class="form-control" required>
-                        <label for="gender">Gender</label>
-
-                        <input type="radio" name="gender" value="male" checked>Male
-
-                        <input type="radio" name="gender" value="female" > Female <br>
-
-                        <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="set()">
-
-                        
                     </div>
 
                     <div class="result">
-                        <p id="dob">
+                        <p id="demo">
 
                         </p>
-                        <p id="mob">
+                        <p id="demo1">
 
                         </p>
-                        <p id="yob">
+                        <p id="demo2">
 
                         </p>
                         
@@ -68,6 +62,6 @@
         </div>
 
     </div>
-    <script src="js/scripts.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

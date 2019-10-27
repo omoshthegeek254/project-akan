@@ -8,15 +8,19 @@
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/
 css/bootstrap.min.css">
 <!-- Main CSS -->
- <link rel="stylesheet" href="css/main.css">
+ <link rel="stylesheet" href="css/style.css">
  </head>
- <body>
+ <body class="image-fluid">
  <div class="container">
- 
+ <div class="jumbotron jumbotron-fluid text-center" id="projname">
+        <h1>Akan Name Finder</h1>
+        <h5 class="alert alert-danger" id="alert2"></h5>
+        <h4 class="alert alert-success" role="alert" id="alert"></h4>
+ </div>
  <div class="row">
  <div class="col-sm-6">
 
-        <h1>Akan Name Finder</h1>
+        
         <h3>Brief Overview</h3>
         <p>Akan is a tribe found in <strong>Ghana</strong>. It's their culture to give names to newborns based on  the day of the week they were born, depending on which gender they are.</p>
         <p>
@@ -43,7 +47,7 @@ css/bootstrap.min.css">
                         <label for="yob">Gender</label> <br>
                         Male<input type="radio" name="gender" value="male" checked >
                         Female<input type="radio" name="gender" value="female" > <br>
-                        <button  onclick="set()"> Submit</button>
+                        <button class="btn btn-primary" onclick="set()"> Submit</button>
                       </form> 
 
 
@@ -53,19 +57,16 @@ css/bootstrap.min.css">
  </div>
  </div>
 
- <div class="row">
-     <div class="col-sm-12">
-        hello i centre
+ <div class="jumbotron-fluid">
+     <h2>Results</h2>
+     <p id="demo">
 
-     </div>
+     </p>
+ </div>
  </div>
  <!-- jQuery first, then Tether, then Bootstrap JS. -->
- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></
-script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.
-js"> </script>
+ 
  <!-- Main JS -->
- <script src="js/main.js"></script>
+ <script src="js/index.js"></script>
  </body>
  </html>

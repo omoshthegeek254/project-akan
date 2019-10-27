@@ -2,6 +2,7 @@
     /* background-image: url(../images/bgfin.jpg);
     background-repeat: no-repeat; */
     background-color:rgba(231, 224, 224, 0.438);
+    background-blend-mode: lighten;
 
 }
 body{
@@ -10,8 +11,34 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 #projname{
-    background-color:rgba(231, 224, 224, 0.438); 
+    background-color:rgba(231, 224, 224, 0.199); 
+    color: #0c093c
+}
+
+#footer,#main h3 ,#main-i h3{
+color: #0c093c;
+font-size: 4vh;
+font-weight: 900;
+}
+#alert, #alert2{
+background-color: rgba(223, 219, 219, 0.103);
+}
+
+#main p ,#main-i p{
+    font-size: 3vh;
+    background-blend-mode: overlay;
+    color: #020202;
+    font-weight: 400;
+
+}
+
+label{
+    font-size: 3vh;
+    background-blend-mode: overlay;
+    color: #0c093c;
+    font-weight: 800;
 }

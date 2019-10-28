@@ -19,13 +19,6 @@ if (mm < 1 || mm > 12 || mm == 2 && dd > 29) {
    }
 
 
-//var cc =parseInt(yob.slice(0,2));
-//var yy= parseInt(yob.slice(2,4));
-
-//getting day of the week you were born
-
- //var weekDay= Math.round( ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
-
  
 
  var maleName = ["Kwasi",

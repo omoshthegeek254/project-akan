@@ -14,6 +14,10 @@
 - JAVASCRIPT
    - Used Javascript to make the web interactive
 
+## Setup & Installation / Environment
+* You will need the following programs locally to be able to effectily run the program:
+- Recent version of web browser (preferably Google Chrome)
+- Free local space of atleast 10M B
 
 ## Contact information
  - For queries ,comments compliments etc ,feel free to reach out to OmoshtheGeek on the following platforms
@@ -43,7 +47,7 @@
   [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 ##  Screen Shots
-  - Below is the screen shots of the projects
+  - Below is the screen shot of the project
 
   - <img src="images/AKA.jpg">
 

@@ -16,7 +16,7 @@
 
 ## Setup & Installation / Environment
 * You will need the following programs locally to be able to effectily run the program:
-- Recent version of web browser (preferably Google Chrome)
+- Recent version of web browser (preferably Google-Chrome)
 - Free local space of atleast 10M B
 
 ## Contact information

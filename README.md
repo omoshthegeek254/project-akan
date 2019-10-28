@@ -15,8 +15,26 @@
    - Used Javascript to make the web interactive
 
 
-## CONTACT INFORMATION 
-  (omoshthegeek@gmail.com)
+## Contact information
+ - For queries ,comments compliments etc ,feel free to reach out to OmoshtheGeek on the following platforms
+    #### Twitter :
+    * ###### @elvizoh
+
+    #### Facebook :
+    * ###### @Elvin Omoxh
+
+    #### Telegram :
+    * ###### @omoshthegeek
+
+    #### WhatsApp :
+    * ###### @ +254735027537
+
+     #### Slack:
+    * ###### @ Elvin Omonche
+
+    #### Git HUb :
+    * ###### @omoshthegeek254
+
 
 
 
@@ -25,4 +43,6 @@
   [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 ##  Screen Shots
-![Alt text](../images/AKA.jpg?raw=true "Title")
+  - Below is the screen shots of the projects
+
+  - <img src="images/AKA.jpg">

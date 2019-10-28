@@ -37,7 +37,13 @@ if (mm < 1 || mm > 12 || mm == 2 && dd > 29) {
  "Afua",
  "Ama"];
 
- var daysOfTheWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+ var daysOfTheWeek = ["Sunday",
+ "Monday",
+ "Tuesday",
+ "Wednesday",
+ "Thursday",
+ "Friday",
+ "Saturday"];
 
 
 

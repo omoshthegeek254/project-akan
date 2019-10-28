@@ -28,7 +28,13 @@ if (mm < 1 || mm > 12 || mm == 2 && dd > 29) {
 
  
 
- var maleName = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi", "Kwame"];
+ var maleName = ["Kwasi",
+ "Kwadwo",
+ "Kwabena",
+ "Kwaku",
+ "Yaw",
+ "Kofi", 
+ "Kwame"];
 
  var femaleName =["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
